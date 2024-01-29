@@ -3,17 +3,40 @@ import threading
 import re
 import logging
 
-# Set up logging
-logging.basicConfig(level=logging.DEBUG, format='%(asctime)s [%(threadName)s] %(message)s')
+# Setting up the requestsLogger
+requestsLogger = logging.getLogger('requestsLogger')
+requestsLogger.setLevel(logging.DEBUG)
+requests_file_handler = logging.FileHandler('requests.log')
+requests_formatter = logging.Formatter('%(asctime)s [%(threadName)s] %(message)s')
+requests_file_handler.setFormatter(requests_formatter)
+requestsLogger.addHandler(requests_file_handler)
+
+# Setting up the relayLogger
+relayLogger = logging.getLogger('relayLogger')
+relayLogger.setLevel(logging.DEBUG)
+relay_file_handler = logging.FileHandler('relay.log')
+relay_formatter = logging.Formatter('%(asctime)s [%(threadName)s] %(message)s')
+relay_file_handler.setFormatter(relay_formatter)
+relayLogger.addHandler(relay_file_handler)
+
+
+# Get-Content -Path "requests.log" -Wait 
 
 class ProxyServer:
 
     def __init__(self, host, port, block_list):
+
+        # Clear the log files at the start
+        open('requests.log', 'w').close()
+        open('relay.log', 'w').close()
+
         self.server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.host = host
         self.port = port
         self.block_list = block_list
         self.initialize_server()
+        self.command_thread = threading.Thread(target=self.read_commands)
+        self.command_thread.start()
 
     def initialize_server(self):
         self.server_socket.bind((self.host, self.port))
@@ -22,12 +45,20 @@ class ProxyServer:
 
     def handle_client(self, client_socket):
         request = client_socket.recv(1024).decode('utf-8')
-        print(f"Request Received: {request}")
+        requestsLogger.debug(f"Request Received: {request}")
+
+        # Check if the request is empty
+        if not request:
+            requestsLogger.warning("Empty request received. Ignoring.")
+            client_socket.close()
+            return
 
         # Check for URL Blocking
         url = self.get_url_from_request(request)
-        if url in self.block_list:
-            print(f"Blocked URL: {url}")
+        normalized_url = self.normalize_url(url)
+        normalized_block_list = [self.normalize_url(blocked_url) for blocked_url in self.block_list]
+        if normalized_url in normalized_block_list:
+            requestsLogger.debug(f"Blocked URL: {url}")
             client_socket.close()
             return
         
@@ -35,22 +66,22 @@ class ProxyServer:
         if request.startswith('CONNECT'):
             self.handle_https_request(client_socket, request)
         else:
-            logging.debug(f"Handling HTTP request: {request}")
+            requestsLogger.debug(f"Handling HTTP request: {request}")
             # Forward the request and retrieve response
             response = self.forward_request(url, request)
 
             # Check if a valid response was received
             if response:
-                print(f"Sending Response back to client. Response size: {len(response)} bytes")
+                requestsLogger.debug(f"Sending Response back to client. Response size: {len(response)} bytes")
                 # Send the response back to the client
                 client_socket.sendall(response)
             else:
-                print("No response received from the server or error occurred.")
+                requestsLogger.debug("No response received from the server or error occurred.")
 
             client_socket.close()
     
     def handle_https_request(self, client_socket, request):
-        logging.debug(f"Handling HTTPS request: {request}")
+        requestsLogger.debug(f"Handling HTTPS request: {request}")
         target_host = request.split(' ')[1].split(':')[0]
         target_port = int(request.split(' ')[1].split(':')[1])
 
@@ -83,20 +114,20 @@ class ProxyServer:
                     data = source.recv(4096)
                     if not data:
                         break
-                    logging.debug(f"Relaying {len(data)} bytes from {source_address} to {destination_address}")
+                    relayLogger.debug(f"Relaying {len(data)} bytes from {source_address} to {destination_address}")
                     destination.sendall(data)
                 except ConnectionResetError:
-                    logging.warning("Connection was reset by the remote host.")
+                    relayLogger.warning("Connection was reset by the remote host.")
                     break  # Exit the loop if the connection is reset
                 except socket.error as e:
-                    logging.error(f"Socket error: {e}", exc_info=True)
+                    relayLogger.error(f"Socket error: {e}", exc_info=True)
                     break  # Handle other socket-related errors
         except Exception as e:
-            logging.error(f"Unexpected error in relay_data: {e}", exc_info=True)
+            relayLogger.error(f"Unexpected error in relay_data: {e}", exc_info=True)
         finally:
             # Close only the source socket if it's specified to avoid closing twice
             if close_source:
-                logging.debug("Closing source socket")
+                relayLogger.debug("Closing source socket")
                 source.close()
 
 
@@ -127,37 +158,77 @@ class ProxyServer:
                 response += part
             return response
         except Exception as e:
-            logging.error(f"Error in forward_request: {e}", exc_info=True)
+            requestsLogger.error(f"Error in forward_request: {e}", exc_info=True)
             return None
         finally:
             server_socket.close()  # Ensures that this socket is always closed
 
 
     def get_url_from_request(self, request):
-        # First line of the request should contain the URL
+        # First line of the request should contain the method and URL
         first_line = request.split('\n')[0]
         url = ''
-
-        if 'CONNECT' in first_line:
-            # For CONNECT requests, the URL is formatted as HOST:PORT
-            url = first_line.split(' ')[1]
+        if first_line:  # Check if first_line is not empty
+            method, url_part, _ = first_line.split()
+            if method == 'CONNECT':  # For CONNECT (HTTPS) requests
+                # URL is in the format host:port for CONNECT requests
+                # Remove the port number
+                host = url_part.split(':')[0]
+                url = 'https://' + host  # Add 'https://' to match the block list format
+            else:
+                # Extract the full URL for HTTP requests
+                match = re.search(r'http://[^\s]+', request)
+                if match:
+                    url = match.group()
+                    # Remove port from HTTP URL if present
+                    url = re.sub(r':\d+', '', url)
         else:
-            # For other requests, extract the URL normally
-            url_match = re.findall(r'(?i)\b((?:https?://|www\d{0,3}[.])[^\s()<>]+(?:\([\w\d]+\)|([^[:punct:]\s]|/)))', request)
-            if url_match:
-                url = url_match[0][0]
-
+            print(request)
         return url
+
+    
+    def normalize_url(self, url):
+        # Remove http:// or https:// from the URL
+        url = re.sub(r'^https?://', '', url)
+        # Remove 'www.' from the URL if it exists
+        url = re.sub(r'^www\.', '', url)
+        # Remove port number if present
+        url = re.sub(r':\d+', '', url)
+        return url
+    
+    def read_commands(self):
+        while True:
+            command = input("> ")
+            if command.startswith("block "):
+                url = command.split(" ", 1)[1]
+                if url == "--showall":
+                    for url in self.block_list:
+                        print(f"{url}")
+                else:
+                    self.block_list.append(url)
+                    print(f"Blocked URL: {url}")
+            elif command.startswith("unblock "):
+                url == command.split(" ", 1)[1]
+                print(f"{url}")
+                if url in self.block_list:
+                    self.block_list.remove(url)
+                    print(f"Unblocked URL: {url}")
+                else:
+                    print(f"{url} already unblocked\n")
+            elif command == "--help":
+                print("Commands\n- block <url>: blocks url specified by <url>\n")
+            else:
+                print("Unknown command, use --help for a list of commands\n")
 
 
     def start(self):
         while True:
             client_socket, addr = self.server_socket.accept()
-            print(f"Connection established with {addr}")
+            requestsLogger.debug(f"Connection established with {addr}")
             client_thread = threading.Thread(target=self.handle_client, args=(client_socket,))
             client_thread.start()
 
-# Example usage
-block_list = ['www.blockedurl.com']
+
+block_list = ['leetcode.com', 'www.yahoo.com']
 proxy = ProxyServer('127.0.0.1', 4003, block_list)
 proxy.start()

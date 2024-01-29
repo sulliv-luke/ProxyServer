@@ -1,0 +1,697 @@
+2024-01-29 13:01:40,918 [MainThread] Connection established with ('127.0.0.1', 55571)
+2024-01-29 13:01:40,918 [Thread-2 (handle_client)] Request Received: CONNECT mobile.events.data.microsoft.com:443 HTTP/1.1
+Host: mobile.events.data.microsoft.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.85.2 Chrome/114.0.5735.289 Electron/25.9.7 Safari/537.36
+
+
+2024-01-29 13:01:40,919 [Thread-2 (handle_client)] Handling HTTPS request: CONNECT mobile.events.data.microsoft.com:443 HTTP/1.1
+Host: mobile.events.data.microsoft.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.85.2 Chrome/114.0.5735.289 Electron/25.9.7 Safari/537.36
+
+
+2024-01-29 13:01:41,181 [MainThread] Connection established with ('127.0.0.1', 55572)
+2024-01-29 13:01:41,182 [Thread-3 (handle_client)] Request Received: CONNECT mobile.events.data.microsoft.com:443 HTTP/1.1
+Host: mobile.events.data.microsoft.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.85.2 Chrome/114.0.5735.289 Electron/25.9.7 Safari/537.36
+
+
+2024-01-29 13:01:41,182 [Thread-3 (handle_client)] Handling HTTPS request: CONNECT mobile.events.data.microsoft.com:443 HTTP/1.1
+Host: mobile.events.data.microsoft.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.85.2 Chrome/114.0.5735.289 Electron/25.9.7 Safari/537.36
+
+
+2024-01-29 13:02:00,845 [MainThread] Connection established with ('127.0.0.1', 55575)
+2024-01-29 13:02:00,846 [Thread-4 (handle_client)] Request Received: CONNECT safebrowsing.googleapis.com:443 HTTP/1.1
+Host: safebrowsing.googleapis.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:02:00,846 [Thread-4 (handle_client)] Handling HTTPS request: CONNECT safebrowsing.googleapis.com:443 HTTP/1.1
+Host: safebrowsing.googleapis.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:02:19,828 [MainThread] Connection established with ('127.0.0.1', 55578)
+2024-01-29 13:02:19,828 [Thread-5 (handle_client)] Request Received: CONNECT mtalk.google.com:5228 HTTP/1.1
+Host: mtalk.google.com:5228
+Proxy-Connection: keep-alive
+
+
+2024-01-29 13:02:19,829 [Thread-5 (handle_client)] Handling HTTPS request: CONNECT mtalk.google.com:5228 HTTP/1.1
+Host: mtalk.google.com:5228
+Proxy-Connection: keep-alive
+
+
+2024-01-29 13:02:38,362 [MainThread] Connection established with ('127.0.0.1', 55582)
+2024-01-29 13:02:38,363 [Thread-6 (handle_client)] Request Received: CONNECT www.google.ie:443 HTTP/1.1
+Host: www.google.ie:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:02:38,363 [Thread-6 (handle_client)] Blocked URL: https://www.google.ie
+2024-01-29 13:02:38,365 [MainThread] Connection established with ('127.0.0.1', 55583)
+2024-01-29 13:02:38,366 [Thread-7 (handle_client)] Request Received: CONNECT www.google.ie:443 HTTP/1.1
+Host: www.google.ie:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:02:38,366 [Thread-7 (handle_client)] Blocked URL: https://www.google.ie
+2024-01-29 13:02:38,367 [MainThread] Connection established with ('127.0.0.1', 55584)
+2024-01-29 13:02:38,368 [Thread-8 (handle_client)] Request Received: CONNECT www.google.ie:443 HTTP/1.1
+Host: www.google.ie:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:02:38,368 [Thread-8 (handle_client)] Blocked URL: https://www.google.ie
+2024-01-29 13:02:38,368 [MainThread] Connection established with ('127.0.0.1', 55585)
+2024-01-29 13:02:38,369 [Thread-9 (handle_client)] Request Received: CONNECT beacons.gcp.gvt2.com:443 HTTP/1.1
+Host: beacons.gcp.gvt2.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:02:38,369 [Thread-9 (handle_client)] Handling HTTPS request: CONNECT beacons.gcp.gvt2.com:443 HTTP/1.1
+Host: beacons.gcp.gvt2.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:02:38,550 [MainThread] Connection established with ('127.0.0.1', 55587)
+2024-01-29 13:02:38,551 [Thread-10 (handle_client)] Request Received: CONNECT cdn-checkout.joinhoney.com:443 HTTP/1.1
+Host: cdn-checkout.joinhoney.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:02:38,551 [Thread-10 (handle_client)] Handling HTTPS request: CONNECT cdn-checkout.joinhoney.com:443 HTTP/1.1
+Host: cdn-checkout.joinhoney.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:02:38,708 [MainThread] Connection established with ('127.0.0.1', 55589)
+2024-01-29 13:02:38,708 [Thread-11 (handle_client)] Request Received: CONNECT cdn.honey.io:443 HTTP/1.1
+Host: cdn.honey.io:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:02:38,708 [Thread-11 (handle_client)] Handling HTTPS request: CONNECT cdn.honey.io:443 HTTP/1.1
+Host: cdn.honey.io:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:02:39,423 [MainThread] Connection established with ('127.0.0.1', 55591)
+2024-01-29 13:02:39,423 [Thread-12 (handle_client)] Request Received: CONNECT www.google.ie:443 HTTP/1.1
+Host: www.google.ie:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:02:39,423 [Thread-12 (handle_client)] Blocked URL: https://www.google.ie
+2024-01-29 13:02:39,428 [MainThread] Connection established with ('127.0.0.1', 55592)
+2024-01-29 13:02:39,428 [Thread-13 (handle_client)] Request Received: CONNECT www.google.ie:443 HTTP/1.1
+Host: www.google.ie:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:02:39,429 [Thread-13 (handle_client)] Blocked URL: https://www.google.ie
+2024-01-29 13:02:44,448 [MainThread] Connection established with ('127.0.0.1', 55593)
+2024-01-29 13:02:44,449 [Thread-14 (handle_client)] Request Received: CONNECT www.google.ie:443 HTTP/1.1
+Host: www.google.ie:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:02:44,449 [Thread-14 (handle_client)] Handling HTTPS request: CONNECT www.google.ie:443 HTTP/1.1
+Host: www.google.ie:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:02:45,608 [MainThread] Connection established with ('127.0.0.1', 55595)
+2024-01-29 13:02:45,608 [Thread-15 (handle_client)] Request Received: CONNECT aa.google.com:443 HTTP/1.1
+Host: aa.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:02:45,609 [Thread-15 (handle_client)] Handling HTTPS request: CONNECT aa.google.com:443 HTTP/1.1
+Host: aa.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:02:45,683 [MainThread] Connection established with ('127.0.0.1', 55596)
+2024-01-29 13:02:45,684 [Thread-16 (handle_client)] Request Received: CONNECT adservice.google.ie:443 HTTP/1.1
+Host: adservice.google.ie:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:02:45,684 [Thread-16 (handle_client)] Handling HTTPS request: CONNECT adservice.google.ie:443 HTTP/1.1
+Host: adservice.google.ie:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:02:46,203 [MainThread] Connection established with ('127.0.0.1', 55599)
+2024-01-29 13:02:46,203 [Thread-17 (handle_client)] Request Received: CONNECT play.google.com:443 HTTP/1.1
+Host: play.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:02:46,203 [Thread-17 (handle_client)] Handling HTTPS request: CONNECT play.google.com:443 HTTP/1.1
+Host: play.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:02:49,405 [MainThread] Connection established with ('127.0.0.1', 55605)
+2024-01-29 13:02:49,405 [Thread-18 (handle_client)] Request Received: CONNECT clients4.google.com:443 HTTP/1.1
+Host: clients4.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:02:49,406 [Thread-18 (handle_client)] Handling HTTPS request: CONNECT clients4.google.com:443 HTTP/1.1
+Host: clients4.google.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:02:50,332 [MainThread] Connection established with ('127.0.0.1', 55607)
+2024-01-29 13:02:50,333 [Thread-19 (handle_client)] Request Received: CONNECT ogs.google.ie:443 HTTP/1.1
+Host: ogs.google.ie:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:02:50,333 [Thread-19 (handle_client)] Handling HTTPS request: CONNECT ogs.google.ie:443 HTTP/1.1
+Host: ogs.google.ie:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:02:51,165 [MainThread] Connection established with ('127.0.0.1', 55609)
+2024-01-29 13:02:51,165 [Thread-20 (handle_client)] Request Received: CONNECT www.gstatic.com:443 HTTP/1.1
+Host: www.gstatic.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:02:51,165 [MainThread] Connection established with ('127.0.0.1', 55610)
+2024-01-29 13:02:51,166 [Thread-20 (handle_client)] Handling HTTPS request: CONNECT www.gstatic.com:443 HTTP/1.1
+Host: www.gstatic.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:02:51,166 [Thread-21 (handle_client)] Request Received: CONNECT ssl.gstatic.com:443 HTTP/1.1
+Host: ssl.gstatic.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:02:51,166 [Thread-21 (handle_client)] Handling HTTPS request: CONNECT ssl.gstatic.com:443 HTTP/1.1
+Host: ssl.gstatic.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:02:53,304 [MainThread] Connection established with ('127.0.0.1', 55613)
+2024-01-29 13:02:53,305 [Thread-22 (handle_client)] Request Received: CONNECT uk.search.yahoo.com:443 HTTP/1.1
+Host: uk.search.yahoo.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:02:53,305 [Thread-22 (handle_client)] Handling HTTPS request: CONNECT uk.search.yahoo.com:443 HTTP/1.1
+Host: uk.search.yahoo.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:02:54,764 [MainThread] Connection established with ('127.0.0.1', 55615)
+2024-01-29 13:02:54,764 [Thread-23 (handle_client)] Request Received: CONNECT optimizationguide-pa.googleapis.com:443 HTTP/1.1
+Host: optimizationguide-pa.googleapis.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:02:54,764 [Thread-23 (handle_client)] Handling HTTPS request: CONNECT optimizationguide-pa.googleapis.com:443 HTTP/1.1
+Host: optimizationguide-pa.googleapis.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:02:54,770 [MainThread] Connection established with ('127.0.0.1', 55616)
+2024-01-29 13:02:54,771 [Thread-24 (handle_client)] Request Received: CONNECT leetcode.com:443 HTTP/1.1
+Host: leetcode.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:02:54,771 [Thread-24 (handle_client)] Blocked URL: https://leetcode.com
+2024-01-29 13:02:54,788 [MainThread] Connection established with ('127.0.0.1', 55617)
+2024-01-29 13:02:54,789 [Thread-25 (handle_client)] Request Received: CONNECT leetcode.com:443 HTTP/1.1
+Host: leetcode.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:02:54,789 [Thread-25 (handle_client)] Blocked URL: https://leetcode.com
+2024-01-29 13:02:55,085 [MainThread] Connection established with ('127.0.0.1', 55619)
+2024-01-29 13:02:55,086 [Thread-26 (handle_client)] Request Received: CONNECT optimizationguide-pa.googleapis.com:443 HTTP/1.1
+Host: optimizationguide-pa.googleapis.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:02:55,086 [Thread-26 (handle_client)] Handling HTTPS request: CONNECT optimizationguide-pa.googleapis.com:443 HTTP/1.1
+Host: optimizationguide-pa.googleapis.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:02:55,863 [MainThread] Connection established with ('127.0.0.1', 55621)
+2024-01-29 13:02:55,864 [Thread-27 (handle_client)] Request Received: CONNECT leetcode.com:443 HTTP/1.1
+Host: leetcode.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:02:55,864 [Thread-27 (handle_client)] Blocked URL: https://leetcode.com
+2024-01-29 13:02:55,868 [MainThread] Connection established with ('127.0.0.1', 55622)
+2024-01-29 13:02:55,869 [Thread-28 (handle_client)] Request Received: CONNECT leetcode.com:443 HTTP/1.1
+Host: leetcode.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:02:55,869 [Thread-28 (handle_client)] Blocked URL: https://leetcode.com
+2024-01-29 13:03:00,888 [MainThread] Connection established with ('127.0.0.1', 55623)
+2024-01-29 13:03:00,888 [Thread-29 (handle_client)] Request Received: CONNECT leetcode.com:443 HTTP/1.1
+Host: leetcode.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:00,888 [Thread-29 (handle_client)] Blocked URL: https://leetcode.com
+2024-01-29 13:03:00,894 [MainThread] Connection established with ('127.0.0.1', 55624)
+2024-01-29 13:03:00,894 [Thread-30 (handle_client)] Request Received: CONNECT leetcode.com:443 HTTP/1.1
+Host: leetcode.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:00,894 [Thread-30 (handle_client)] Blocked URL: https://leetcode.com
+2024-01-29 13:03:09,903 [MainThread] Connection established with ('127.0.0.1', 55625)
+2024-01-29 13:03:09,903 [Thread-31 (handle_client)] Request Received: CONNECT tcd.blackboard.com:443 HTTP/1.1
+Host: tcd.blackboard.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:09,903 [Thread-31 (handle_client)] Handling HTTPS request: CONNECT tcd.blackboard.com:443 HTTP/1.1
+Host: tcd.blackboard.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:10,849 [MainThread] Connection established with ('127.0.0.1', 55627)
+2024-01-29 13:03:10,850 [Thread-32 (handle_client)] Request Received: CONNECT tcd.blackboard.com:443 HTTP/1.1
+Host: tcd.blackboard.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:10,850 [Thread-32 (handle_client)] Handling HTTPS request: CONNECT tcd.blackboard.com:443 HTTP/1.1
+Host: tcd.blackboard.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:10,962 [MainThread] Connection established with ('127.0.0.1', 55629)
+2024-01-29 13:03:10,963 [Thread-33 (handle_client)] Request Received: CONNECT tcd.blackboard.com:443 HTTP/1.1
+Host: tcd.blackboard.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:10,963 [Thread-33 (handle_client)] Handling HTTPS request: CONNECT tcd.blackboard.com:443 HTTP/1.1
+Host: tcd.blackboard.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:10,966 [MainThread] Connection established with ('127.0.0.1', 55631)
+2024-01-29 13:03:10,966 [Thread-34 (handle_client)] Request Received: CONNECT tcd.blackboard.com:443 HTTP/1.1
+Host: tcd.blackboard.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:10,966 [Thread-34 (handle_client)] Handling HTTPS request: CONNECT tcd.blackboard.com:443 HTTP/1.1
+Host: tcd.blackboard.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:11,006 [MainThread] Connection established with ('127.0.0.1', 55633)
+2024-01-29 13:03:11,007 [Thread-35 (handle_client)] Request Received: CONNECT alt-62b985ffa0afc.blackboard.com:443 HTTP/1.1
+Host: alt-62b985ffa0afc.blackboard.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:11,007 [Thread-35 (handle_client)] Handling HTTPS request: CONNECT alt-62b985ffa0afc.blackboard.com:443 HTTP/1.1
+Host: alt-62b985ffa0afc.blackboard.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:11,187 [MainThread] Connection established with ('127.0.0.1', 55635)
+2024-01-29 13:03:11,187 [Thread-36 (handle_client)] Request Received: CONNECT alt-62b985ffa0afc.blackboard.com:443 HTTP/1.1
+Host: alt-62b985ffa0afc.blackboard.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:11,187 [Thread-36 (handle_client)] Handling HTTPS request: CONNECT alt-62b985ffa0afc.blackboard.com:443 HTTP/1.1
+Host: alt-62b985ffa0afc.blackboard.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:11,305 [MainThread] Connection established with ('127.0.0.1', 55637)
+2024-01-29 13:03:11,305 [Thread-37 (handle_client)] Request Received: CONNECT alt-62b985ffa0afc.blackboard.com:443 HTTP/1.1
+Host: alt-62b985ffa0afc.blackboard.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:11,305 [Thread-37 (handle_client)] Handling HTTPS request: CONNECT alt-62b985ffa0afc.blackboard.com:443 HTTP/1.1
+Host: alt-62b985ffa0afc.blackboard.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:11,585 [MainThread] Connection established with ('127.0.0.1', 55639)
+2024-01-29 13:03:11,586 [Thread-38 (handle_client)] Request Received: CONNECT learn-eu-central-1-prod-fleet01-xythos.content.blackboardcdn.com:443 HTTP/1.1
+Host: learn-eu-central-1-prod-fleet01-xythos.content.blackboardcdn.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:11,586 [Thread-38 (handle_client)] Handling HTTPS request: CONNECT learn-eu-central-1-prod-fleet01-xythos.content.blackboardcdn.com:443 HTTP/1.1
+Host: learn-eu-central-1-prod-fleet01-xythos.content.blackboardcdn.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:12,066 [MainThread] Connection established with ('127.0.0.1', 55641)
+2024-01-29 13:03:12,066 [Thread-39 (handle_client)] Request Received: CONNECT prod-eu-central-1.ally.ac:443 HTTP/1.1
+Host: prod-eu-central-1.ally.ac:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:12,066 [Thread-39 (handle_client)] Handling HTTPS request: CONNECT prod-eu-central-1.ally.ac:443 HTTP/1.1
+Host: prod-eu-central-1.ally.ac:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:12,113 [MainThread] Connection established with ('127.0.0.1', 55643)
+2024-01-29 13:03:12,113 [Thread-40 (handle_client)] Request Received: CONNECT login.microsoftonline.com:443 HTTP/1.1
+Host: login.microsoftonline.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:12,114 [Thread-40 (handle_client)] Handling HTTPS request: CONNECT login.microsoftonline.com:443 HTTP/1.1
+Host: login.microsoftonline.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:13,696 [MainThread] Connection established with ('127.0.0.1', 55645)
+2024-01-29 13:03:13,697 [Thread-41 (handle_client)] Request Received: CONNECT login.microsoftonline.com:443 HTTP/1.1
+Host: login.microsoftonline.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:13,698 [MainThread] Connection established with ('127.0.0.1', 55646)
+2024-01-29 13:03:13,698 [Thread-41 (handle_client)] Handling HTTPS request: CONNECT login.microsoftonline.com:443 HTTP/1.1
+Host: login.microsoftonline.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:13,699 [Thread-42 (handle_client)] Request Received: CONNECT aadcdn.msauth.net:443 HTTP/1.1
+Host: aadcdn.msauth.net:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:13,699 [Thread-42 (handle_client)] Handling HTTPS request: CONNECT aadcdn.msauth.net:443 HTTP/1.1
+Host: aadcdn.msauth.net:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:14,711 [MainThread] Connection established with ('127.0.0.1', 55649)
+2024-01-29 13:03:14,711 [Thread-43 (handle_client)] Request Received: CONNECT web-sdk.aptrinsic.com:443 HTTP/1.1
+Host: web-sdk.aptrinsic.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:14,711 [Thread-43 (handle_client)] Handling HTTPS request: CONNECT web-sdk.aptrinsic.com:443 HTTP/1.1
+Host: web-sdk.aptrinsic.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:15,150 [MainThread] Connection established with ('127.0.0.1', 55651)
+2024-01-29 13:03:15,150 [Thread-44 (handle_client)] Request Received: CONNECT developer.blackboard.com:443 HTTP/1.1
+Host: developer.blackboard.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:15,150 [Thread-44 (handle_client)] Handling HTTPS request: CONNECT developer.blackboard.com:443 HTTP/1.1
+Host: developer.blackboard.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:15,497 [MainThread] Connection established with ('127.0.0.1', 55653)
+2024-01-29 13:03:15,498 [Thread-45 (handle_client)] Request Received: CONNECT esp.aptrinsic.com:443 HTTP/1.1
+Host: esp.aptrinsic.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:15,498 [Thread-45 (handle_client)] Handling HTTPS request: CONNECT esp.aptrinsic.com:443 HTTP/1.1
+Host: esp.aptrinsic.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:15,810 [MainThread] Connection established with ('127.0.0.1', 55655)
+2024-01-29 13:03:15,811 [Thread-46 (handle_client)] Request Received: CONNECT us.cstp.blackboard.com:443 HTTP/1.1
+Host: us.cstp.blackboard.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:15,811 [Thread-46 (handle_client)] Handling HTTPS request: CONNECT us.cstp.blackboard.com:443 HTTP/1.1
+Host: us.cstp.blackboard.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:16,041 [MainThread] Connection established with ('127.0.0.1', 55657)
+2024-01-29 13:03:16,041 [Thread-47 (handle_client)] Request Received: CONNECT tcd.blackboard.com:443 HTTP/1.1
+Host: tcd.blackboard.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:16,041 [Thread-47 (handle_client)] Handling HTTPS request: CONNECT tcd.blackboard.com:443 HTTP/1.1
+Host: tcd.blackboard.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:16,058 [MainThread] Connection established with ('127.0.0.1', 55659)
+2024-01-29 13:03:16,058 [Thread-48 (handle_client)] Request Received: CONNECT tcd.blackboard.com:443 HTTP/1.1
+Host: tcd.blackboard.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:16,058 [Thread-48 (handle_client)] Handling HTTPS request: CONNECT tcd.blackboard.com:443 HTTP/1.1
+Host: tcd.blackboard.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:16,374 [MainThread] Connection established with ('127.0.0.1', 55661)
+2024-01-29 13:03:16,374 [Thread-49 (handle_client)] Request Received: CONNECT esp.aptrinsic.com:443 HTTP/1.1
+Host: esp.aptrinsic.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:16,374 [Thread-49 (handle_client)] Handling HTTPS request: CONNECT esp.aptrinsic.com:443 HTTP/1.1
+Host: esp.aptrinsic.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:16,377 [MainThread] Connection established with ('127.0.0.1', 55663)
+2024-01-29 13:03:16,378 [Thread-50 (handle_client)] Request Received: CONNECT esp.aptrinsic.com:443 HTTP/1.1
+Host: esp.aptrinsic.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:16,378 [Thread-50 (handle_client)] Handling HTTPS request: CONNECT esp.aptrinsic.com:443 HTTP/1.1
+Host: esp.aptrinsic.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:16,380 [MainThread] Connection established with ('127.0.0.1', 55665)
+2024-01-29 13:03:16,380 [Thread-51 (handle_client)] Request Received: CONNECT esp.aptrinsic.com:443 HTTP/1.1
+Host: esp.aptrinsic.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:16,380 [Thread-51 (handle_client)] Handling HTTPS request: CONNECT esp.aptrinsic.com:443 HTTP/1.1
+Host: esp.aptrinsic.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:16,384 [MainThread] Connection established with ('127.0.0.1', 55667)
+2024-01-29 13:03:16,384 [Thread-52 (handle_client)] Request Received: CONNECT esp.aptrinsic.com:443 HTTP/1.1
+Host: esp.aptrinsic.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:16,385 [Thread-52 (handle_client)] Handling HTTPS request: CONNECT esp.aptrinsic.com:443 HTTP/1.1
+Host: esp.aptrinsic.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:29,505 [MainThread] Connection established with ('127.0.0.1', 55670)
+2024-01-29 13:03:29,506 [Thread-53 (handle_client)] Request Received: CONNECT d.joinhoney.com:443 HTTP/1.1
+Host: d.joinhoney.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:29,506 [Thread-53 (handle_client)] Handling HTTPS request: CONNECT d.joinhoney.com:443 HTTP/1.1
+Host: d.joinhoney.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:35,199 [MainThread] Connection established with ('127.0.0.1', 55672)
+2024-01-29 13:03:35,200 [Thread-54 (handle_client)] Request Received: CONNECT s.joinhoney.com:443 HTTP/1.1
+Host: s.joinhoney.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:35,200 [Thread-54 (handle_client)] Handling HTTPS request: CONNECT s.joinhoney.com:443 HTTP/1.1
+Host: s.joinhoney.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:49,540 [MainThread] Connection established with ('127.0.0.1', 55675)
+2024-01-29 13:03:49,541 [Thread-55 (handle_client)] Request Received: CONNECT www.google.ie:443 HTTP/1.1
+Host: www.google.ie:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:03:49,541 [Thread-55 (handle_client)] Handling HTTPS request: CONNECT www.google.ie:443 HTTP/1.1
+Host: www.google.ie:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:04:09,923 [MainThread] Connection established with ('127.0.0.1', 55677)
+2024-01-29 13:04:09,924 [Thread-56 (handle_client)] Request Received: CONNECT prod-eu-central-1.ally.ac:443 HTTP/1.1
+Host: prod-eu-central-1.ally.ac:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:04:09,924 [Thread-56 (handle_client)] Handling HTTPS request: CONNECT prod-eu-central-1.ally.ac:443 HTTP/1.1
+Host: prod-eu-central-1.ally.ac:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:04:12,143 [MainThread] Connection established with ('127.0.0.1', 55679)
+2024-01-29 13:04:12,144 [Thread-57 (handle_client)] Request Received: CONNECT alt-62b985ffa0afc.blackboard.com:443 HTTP/1.1
+Host: alt-62b985ffa0afc.blackboard.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:04:12,144 [Thread-57 (handle_client)] Handling HTTPS request: CONNECT alt-62b985ffa0afc.blackboard.com:443 HTTP/1.1
+Host: alt-62b985ffa0afc.blackboard.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:04:12,505 [MainThread] Connection established with ('127.0.0.1', 55681)
+2024-01-29 13:04:12,505 [Thread-58 (handle_client)] Request Received: CONNECT learn-eu-central-1-prod-fleet01-xythos.content.blackboardcdn.com:443 HTTP/1.1
+Host: learn-eu-central-1-prod-fleet01-xythos.content.blackboardcdn.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:04:12,505 [Thread-58 (handle_client)] Handling HTTPS request: CONNECT learn-eu-central-1-prod-fleet01-xythos.content.blackboardcdn.com:443 HTTP/1.1
+Host: learn-eu-central-1-prod-fleet01-xythos.content.blackboardcdn.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+
+2024-01-29 13:06:19,926 [MainThread] Connection established with ('127.0.0.1', 55696)
+2024-01-29 13:06:19,926 [Thread-59 (handle_client)] Request Received: CONNECT az764295.vo.msecnd.net:443 HTTP/1.1
+Host: az764295.vo.msecnd.net:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.85.2 Chrome/114.0.5735.289 Electron/25.9.7 Safari/537.36
+
+
+2024-01-29 13:06:19,926 [Thread-59 (handle_client)] Handling HTTPS request: CONNECT az764295.vo.msecnd.net:443 HTTP/1.1
+Host: az764295.vo.msecnd.net:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.85.2 Chrome/114.0.5735.289 Electron/25.9.7 Safari/537.36
+
+
