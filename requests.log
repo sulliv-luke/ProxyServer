@@ -1,82 +1,76 @@
-2024-01-29 14:34:27,666 [MainThread] Connection established with ('127.0.0.1', 61734)
-2024-01-29 14:34:27,667 [Thread-2 (handle_client)] Request Received: CONNECT mobile.events.data.microsoft.com:443 HTTP/1.1
+2024-02-01 16:40:31,879 [MainThread] Connection established with ('127.0.0.1', 55243)
+2024-02-01 16:40:31,880 [Thread-2 (handle_client)] Request Received: CONNECT dealer.spotify.com:443 HTTP/1.1
+Host: dealer.spotify.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) discord/1.0.9032 Chrome/108.0.5359.215 Electron/22.3.26 Safari/537.36
+
+
+2024-02-01 16:40:31,880 [Thread-2 (handle_client)] Handling HTTPS request: CONNECT dealer.spotify.com:443 HTTP/1.1
+Host: dealer.spotify.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) discord/1.0.9032 Chrome/108.0.5359.215 Electron/22.3.26 Safari/537.36
+
+
+2024-02-01 16:40:31,896 [MainThread] Connection established with ('127.0.0.1', 55241)
+2024-02-01 16:40:31,896 [Thread-3 (handle_client)] Request Received: CONNECT mobile.events.data.microsoft.com:443 HTTP/1.1
 Host: mobile.events.data.microsoft.com:443
 Proxy-Connection: keep-alive
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.85.2 Chrome/114.0.5735.289 Electron/25.9.7 Safari/537.36
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.86.0 Chrome/118.0.5993.159 Electron/27.2.3 Safari/537.36
 
 
-2024-01-29 14:34:27,669 [Thread-2 (handle_client)] Handling HTTPS request: CONNECT mobile.events.data.microsoft.com:443 HTTP/1.1
+2024-02-01 16:40:31,897 [Thread-3 (handle_client)] Handling HTTPS request: CONNECT mobile.events.data.microsoft.com:443 HTTP/1.1
 Host: mobile.events.data.microsoft.com:443
 Proxy-Connection: keep-alive
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.85.2 Chrome/114.0.5735.289 Electron/25.9.7 Safari/537.36
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.86.0 Chrome/118.0.5993.159 Electron/27.2.3 Safari/537.36
 
 
-2024-01-29 14:34:28,415 [MainThread] Connection established with ('127.0.0.1', 61749)
-2024-01-29 14:34:28,416 [Thread-3 (handle_client)] Request Received: GET http://httpbin.org/get HTTP/1.1
-Host: httpbin.org
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate
-Accept: */*
-Connection: keep-alive
+2024-02-01 16:40:31,912 [MainThread] Connection established with ('127.0.0.1', 55246)
+2024-02-01 16:40:31,912 [Thread-4 (handle_client)] Request Received: CONNECT fcmconnection.googleapis.com:443 HTTP/1.1
+Host: fcmconnection.googleapis.com:443
+Proxy-Connection: Keep-Alive
 
 
-2024-01-29 14:34:28,416 [Thread-3 (handle_client)] Handling HTTP request: GET http://httpbin.org/get HTTP/1.1
-Host: httpbin.org
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate
-Accept: */*
-Connection: keep-alive
+2024-02-01 16:40:31,913 [Thread-4 (handle_client)] Handling HTTPS request: CONNECT fcmconnection.googleapis.com:443 HTTP/1.1
+Host: fcmconnection.googleapis.com:443
+Proxy-Connection: Keep-Alive
 
 
-2024-01-29 14:34:40,073 [MainThread] Connection established with ('127.0.0.1', 61751)
-2024-01-29 14:34:40,074 [Thread-4 (handle_client)] Request Received: CONNECT cc-api-data.adobe.io:443 HTTP/1.1
-Host: 127.0.0.1:4003
-Connection: close
+2024-02-01 16:40:32,046 [MainThread] Connection established with ('127.0.0.1', 55249)
+2024-02-01 16:40:32,046 [Thread-5 (handle_client)] Request Received: CONNECT api.spotify.com:443 HTTP/1.1
+Host: api.spotify.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) discord/1.0.9032 Chrome/108.0.5359.215 Electron/22.3.26 Safari/537.36
 
 
-2024-01-29 14:34:40,074 [Thread-4 (handle_client)] Handling HTTPS request: CONNECT cc-api-data.adobe.io:443 HTTP/1.1
-Host: 127.0.0.1:4003
-Connection: close
+2024-02-01 16:40:32,046 [Thread-5 (handle_client)] Handling HTTPS request: CONNECT api.spotify.com:443 HTTP/1.1
+Host: api.spotify.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) discord/1.0.9032 Chrome/108.0.5359.215 Electron/22.3.26 Safari/537.36
 
 
-2024-01-29 14:35:28,670 [Thread-3 (handle_client)] Sending Response back to client. Response size: 538 bytes
-2024-01-29 14:35:33,175 [MainThread] Connection established with ('127.0.0.1', 61755)
-2024-01-29 14:35:33,175 [Thread-5 (handle_client)] Request Received: GET http://httpbin.org/get HTTP/1.1
-Host: httpbin.org
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate
-Accept: */*
-Connection: keep-alive
+2024-02-01 16:40:32,147 [MainThread] Connection established with ('127.0.0.1', 55242)
+2024-02-01 16:40:32,148 [Thread-6 (handle_client)] Request Received: CONNECT mobile.events.data.microsoft.com:443 HTTP/1.1
+Host: mobile.events.data.microsoft.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.86.0 Chrome/118.0.5993.159 Electron/27.2.3 Safari/537.36
 
 
-2024-01-29 14:35:33,176 [Thread-5 (handle_client)] CACHE HIT
-2024-01-29 14:36:00,776 [MainThread] Connection established with ('127.0.0.1', 61757)
-2024-01-29 14:36:00,777 [Thread-6 (handle_client)] Request Received: GET http://httpbin.org/get HTTP/1.1
-Host: httpbin.org
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate
-Accept: */*
-Connection: keep-alive
+2024-02-01 16:40:32,148 [Thread-6 (handle_client)] Handling HTTPS request: CONNECT mobile.events.data.microsoft.com:443 HTTP/1.1
+Host: mobile.events.data.microsoft.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.86.0 Chrome/118.0.5993.159 Electron/27.2.3 Safari/537.36
 
 
-2024-01-29 14:36:00,777 [Thread-6 (handle_client)] CACHE HIT
-2024-01-29 14:36:01,938 [MainThread] Connection established with ('127.0.0.1', 61759)
-2024-01-29 14:36:01,939 [Thread-7 (handle_client)] Request Received: GET http://httpbin.org/get HTTP/1.1
-Host: httpbin.org
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate
-Accept: */*
-Connection: keep-alive
+2024-02-01 16:40:32,152 [MainThread] Connection established with ('127.0.0.1', 55244)
+2024-02-01 16:40:32,152 [Thread-7 (handle_client)] Request Received: CONNECT dealer.spotify.com:443 HTTP/1.1
+Host: dealer.spotify.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) discord/1.0.9032 Chrome/108.0.5359.215 Electron/22.3.26 Safari/537.36
 
 
-2024-01-29 14:36:01,939 [Thread-7 (handle_client)] CACHE HIT
-2024-01-29 14:36:02,761 [MainThread] Connection established with ('127.0.0.1', 61761)
-2024-01-29 14:36:02,762 [Thread-8 (handle_client)] Request Received: GET http://httpbin.org/get HTTP/1.1
-Host: httpbin.org
-User-Agent: python-requests/2.31.0
-Accept-Encoding: gzip, deflate
-Accept: */*
-Connection: keep-alive
+2024-02-01 16:40:32,152 [Thread-7 (handle_client)] Handling HTTPS request: CONNECT dealer.spotify.com:443 HTTP/1.1
+Host: dealer.spotify.com:443
+Proxy-Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) discord/1.0.9032 Chrome/108.0.5359.215 Electron/22.3.26 Safari/537.36
 
 
-2024-01-29 14:36:02,762 [Thread-8 (handle_client)] CACHE HIT

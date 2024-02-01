@@ -44,7 +44,7 @@ class ProxyServer:
 
     def initialize_server(self):
         self.server_socket.bind((self.host, self.port))
-        self.server_socket.listen(5)
+        self.server_socket.listen(9)
         print(f"Proxy Server running on {self.host}:{self.port}")
 
     def handle_client(self, client_socket):
@@ -156,7 +156,6 @@ class ProxyServer:
 
     def forward_request(self, url, request):
         target_host, target_port = self.extract_host_port(url)
-
         server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         try:
             server_socket.connect((target_host, target_port))
@@ -196,7 +195,7 @@ class ProxyServer:
                 if match:
                     url = match.group()
                     # Remove port from HTTP URL if present
-                    url = re.sub(r':\d+', '', url)
+                    # url = re.sub(r':\d+', '', url)
         else:
             print(request)
         return url
@@ -234,11 +233,11 @@ class ProxyServer:
                     print(f"Unblocked URL: {url}")
                 else:
                     print(f"{url} already unblocked\n")
-            elif command == "--cache":
+            elif command == "cache":
                 for entry in self.cache:
-                    print(f"{entry}")
+                    print(f"{self.cache[entry]}\n")
             elif command == "--help":
-                print("Commands\n- block <url>: blocks url specified by <url>\n- unblock <url> unblocks specified url\n")
+                print("Commands\n- block <url>: blocks url specified by <url>\n- unblock <url> unblocks specified url\n- cache: show all cached HTTP requests")
             else:
                 print("Unknown command, use --help for a list of commands\n")
 
