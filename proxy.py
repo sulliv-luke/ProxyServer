@@ -1,3 +1,4 @@
+import hashlib
 import socket
 import threading
 import re
@@ -34,6 +35,9 @@ class ProxyServer:
         self.host = host
         self.port = port
         self.block_list = block_list
+
+        self.cache = {}  # Dictionary for storing cached responses
+        
         self.initialize_server()
         self.command_thread = threading.Thread(target=self.read_commands)
         self.command_thread.start()
@@ -62,7 +66,15 @@ class ProxyServer:
             client_socket.close()
             return
         
+        cache_key = self.generate_cache_key(request)
+        if cache_key in self.cache:
+            requestsLogger.debug(f"CACHE HIT")
+            client_socket.sendall(self.cache[cache_key])
+            client_socket.close()
+            return
+        
         # Check for HTTPS CONNECT method
+
         if request.startswith('CONNECT'):
             self.handle_https_request(client_socket, request)
         else:
@@ -156,6 +168,9 @@ class ProxyServer:
                 if not part:
                     break
                 response += part
+                if response:
+                    cache_key = self.generate_cache_key(request)
+                    self.cache[cache_key] = response
             return response
         except Exception as e:
             requestsLogger.error(f"Error in forward_request: {e}", exc_info=True)
@@ -196,6 +211,10 @@ class ProxyServer:
         url = re.sub(r':\d+', '', url)
         return url
     
+    def generate_cache_key(self, request):
+        # Generate a unique cache key based on the request
+        return hashlib.sha256(request.encode()).hexdigest()
+    
     def read_commands(self):
         while True:
             command = input("> ")
@@ -215,8 +234,11 @@ class ProxyServer:
                     print(f"Unblocked URL: {url}")
                 else:
                     print(f"{url} already unblocked\n")
+            elif command == "--cache":
+                for entry in self.cache:
+                    print(f"{entry}")
             elif command == "--help":
-                print("Commands\n- block <url>: blocks url specified by <url>\n")
+                print("Commands\n- block <url>: blocks url specified by <url>\n- unblock <url> unblocks specified url\n")
             else:
                 print("Unknown command, use --help for a list of commands\n")
 
