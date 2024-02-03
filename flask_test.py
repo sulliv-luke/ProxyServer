@@ -19,5 +19,5 @@ def get_random_text():
     return jsonify({'message': 'Hello, world!', 'largeText': large_text})
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5051)
+    app.run(debug=True, port=5050)
 

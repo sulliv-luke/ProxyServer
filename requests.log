@@ -1,76 +1,2492 @@
-2024-02-01 16:40:31,879 [MainThread] Connection established with ('127.0.0.1', 55243)
-2024-02-01 16:40:31,880 [Thread-2 (handle_client)] Request Received: CONNECT dealer.spotify.com:443 HTTP/1.1
-Host: dealer.spotify.com:443
-Proxy-Connection: keep-alive
-User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) discord/1.0.9032 Chrome/108.0.5359.215 Electron/22.3.26 Safari/537.36
+2024-02-03 15:18:16,679 [MainThread] Connection established with ('127.0.0.1', 52688)
+2024-02-03 15:18:16,683 [Thread-2 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
 
 
-2024-02-01 16:40:31,880 [Thread-2 (handle_client)] Handling HTTPS request: CONNECT dealer.spotify.com:443 HTTP/1.1
-Host: dealer.spotify.com:443
-Proxy-Connection: keep-alive
-User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) discord/1.0.9032 Chrome/108.0.5359.215 Electron/22.3.26 Safari/537.36
+2024-02-03 15:18:16,683 [Thread-2 (handle_client)] Handling HTTP request: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
 
 
-2024-02-01 16:40:31,896 [MainThread] Connection established with ('127.0.0.1', 55241)
-2024-02-01 16:40:31,896 [Thread-3 (handle_client)] Request Received: CONNECT mobile.events.data.microsoft.com:443 HTTP/1.1
-Host: mobile.events.data.microsoft.com:443
-Proxy-Connection: keep-alive
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.86.0 Chrome/118.0.5993.159 Electron/27.2.3 Safari/537.36
+2024-02-03 15:18:16,711 [Thread-2 (handle_client)] Sending Response back to client. Response size: 198 bytes
+2024-02-03 15:18:16,719 [MainThread] Connection established with ('127.0.0.1', 52690)
+2024-02-03 15:18:16,719 [Thread-3 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
 
 
-2024-02-01 16:40:31,897 [Thread-3 (handle_client)] Handling HTTPS request: CONNECT mobile.events.data.microsoft.com:443 HTTP/1.1
-Host: mobile.events.data.microsoft.com:443
-Proxy-Connection: keep-alive
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.86.0 Chrome/118.0.5993.159 Electron/27.2.3 Safari/537.36
+2024-02-03 15:18:16,723 [MainThread] Connection established with ('127.0.0.1', 52691)
+2024-02-03 15:18:16,723 [Thread-4 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
 
 
-2024-02-01 16:40:31,912 [MainThread] Connection established with ('127.0.0.1', 55246)
-2024-02-01 16:40:31,912 [Thread-4 (handle_client)] Request Received: CONNECT fcmconnection.googleapis.com:443 HTTP/1.1
-Host: fcmconnection.googleapis.com:443
-Proxy-Connection: Keep-Alive
+2024-02-03 15:18:16,727 [MainThread] Connection established with ('127.0.0.1', 52692)
+2024-02-03 15:18:16,731 [Thread-5 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
 
 
-2024-02-01 16:40:31,913 [Thread-4 (handle_client)] Handling HTTPS request: CONNECT fcmconnection.googleapis.com:443 HTTP/1.1
-Host: fcmconnection.googleapis.com:443
-Proxy-Connection: Keep-Alive
+2024-02-03 15:18:16,735 [MainThread] Connection established with ('127.0.0.1', 52693)
+2024-02-03 15:18:16,735 [Thread-6 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
 
 
-2024-02-01 16:40:32,046 [MainThread] Connection established with ('127.0.0.1', 55249)
-2024-02-01 16:40:32,046 [Thread-5 (handle_client)] Request Received: CONNECT api.spotify.com:443 HTTP/1.1
-Host: api.spotify.com:443
-Proxy-Connection: keep-alive
-User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) discord/1.0.9032 Chrome/108.0.5359.215 Electron/22.3.26 Safari/537.36
+2024-02-03 15:18:16,739 [MainThread] Connection established with ('127.0.0.1', 52694)
+2024-02-03 15:18:16,739 [Thread-7 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
 
 
-2024-02-01 16:40:32,046 [Thread-5 (handle_client)] Handling HTTPS request: CONNECT api.spotify.com:443 HTTP/1.1
-Host: api.spotify.com:443
-Proxy-Connection: keep-alive
-User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) discord/1.0.9032 Chrome/108.0.5359.215 Electron/22.3.26 Safari/537.36
+2024-02-03 15:18:16,747 [MainThread] Connection established with ('127.0.0.1', 52695)
+2024-02-03 15:18:16,747 [Thread-8 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
 
 
-2024-02-01 16:40:32,147 [MainThread] Connection established with ('127.0.0.1', 55242)
-2024-02-01 16:40:32,148 [Thread-6 (handle_client)] Request Received: CONNECT mobile.events.data.microsoft.com:443 HTTP/1.1
-Host: mobile.events.data.microsoft.com:443
-Proxy-Connection: keep-alive
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.86.0 Chrome/118.0.5993.159 Electron/27.2.3 Safari/537.36
+2024-02-03 15:18:16,751 [MainThread] Connection established with ('127.0.0.1', 52696)
+2024-02-03 15:18:16,751 [Thread-9 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
 
 
-2024-02-01 16:40:32,148 [Thread-6 (handle_client)] Handling HTTPS request: CONNECT mobile.events.data.microsoft.com:443 HTTP/1.1
-Host: mobile.events.data.microsoft.com:443
-Proxy-Connection: keep-alive
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.86.0 Chrome/118.0.5993.159 Electron/27.2.3 Safari/537.36
+2024-02-03 15:18:16,755 [MainThread] Connection established with ('127.0.0.1', 52697)
+2024-02-03 15:18:16,755 [Thread-10 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
 
 
-2024-02-01 16:40:32,152 [MainThread] Connection established with ('127.0.0.1', 55244)
-2024-02-01 16:40:32,152 [Thread-7 (handle_client)] Request Received: CONNECT dealer.spotify.com:443 HTTP/1.1
-Host: dealer.spotify.com:443
-Proxy-Connection: keep-alive
-User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) discord/1.0.9032 Chrome/108.0.5359.215 Electron/22.3.26 Safari/537.36
+2024-02-03 15:18:16,759 [MainThread] Connection established with ('127.0.0.1', 52698)
+2024-02-03 15:18:16,759 [Thread-11 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
 
 
-2024-02-01 16:40:32,152 [Thread-7 (handle_client)] Handling HTTPS request: CONNECT dealer.spotify.com:443 HTTP/1.1
-Host: dealer.spotify.com:443
-Proxy-Connection: keep-alive
-User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) discord/1.0.9032 Chrome/108.0.5359.215 Electron/22.3.26 Safari/537.36
+2024-02-03 15:18:18,070 [MainThread] Connection established with ('127.0.0.1', 52701)
+2024-02-03 15:18:18,070 [Thread-12 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:18,074 [MainThread] Connection established with ('127.0.0.1', 52702)
+2024-02-03 15:18:18,074 [Thread-13 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:18,082 [MainThread] Connection established with ('127.0.0.1', 52703)
+2024-02-03 15:18:18,082 [Thread-14 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:18,086 [MainThread] Connection established with ('127.0.0.1', 52704)
+2024-02-03 15:18:18,090 [Thread-15 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:18,094 [MainThread] Connection established with ('127.0.0.1', 52705)
+2024-02-03 15:18:18,094 [Thread-16 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:18,102 [MainThread] Connection established with ('127.0.0.1', 52706)
+2024-02-03 15:18:18,102 [Thread-17 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:18,106 [MainThread] Connection established with ('127.0.0.1', 52707)
+2024-02-03 15:18:18,106 [Thread-18 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:18,110 [MainThread] Connection established with ('127.0.0.1', 52708)
+2024-02-03 15:18:18,110 [Thread-19 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:18,118 [MainThread] Connection established with ('127.0.0.1', 52709)
+2024-02-03 15:18:18,118 [Thread-20 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:18,122 [MainThread] Connection established with ('127.0.0.1', 52710)
+2024-02-03 15:18:18,122 [Thread-21 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:20,087 [MainThread] Connection established with ('127.0.0.1', 52713)
+2024-02-03 15:18:20,087 [Thread-22 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:20,091 [MainThread] Connection established with ('127.0.0.1', 52714)
+2024-02-03 15:18:20,091 [Thread-23 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:20,099 [MainThread] Connection established with ('127.0.0.1', 52715)
+2024-02-03 15:18:20,099 [Thread-24 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:20,103 [MainThread] Connection established with ('127.0.0.1', 52716)
+2024-02-03 15:18:20,103 [Thread-25 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:20,111 [MainThread] Connection established with ('127.0.0.1', 52717)
+2024-02-03 15:18:20,111 [Thread-26 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:20,115 [MainThread] Connection established with ('127.0.0.1', 52718)
+2024-02-03 15:18:20,119 [Thread-27 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:20,123 [MainThread] Connection established with ('127.0.0.1', 52719)
+2024-02-03 15:18:20,123 [Thread-28 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:20,127 [MainThread] Connection established with ('127.0.0.1', 52720)
+2024-02-03 15:18:20,127 [Thread-29 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:20,131 [MainThread] Connection established with ('127.0.0.1', 52721)
+2024-02-03 15:18:20,131 [Thread-30 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:20,135 [MainThread] Connection established with ('127.0.0.1', 52722)
+2024-02-03 15:18:20,139 [Thread-31 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:22,979 [MainThread] Connection established with ('127.0.0.1', 52725)
+2024-02-03 15:18:22,979 [Thread-32 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:22,983 [MainThread] Connection established with ('127.0.0.1', 52726)
+2024-02-03 15:18:22,983 [Thread-33 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:22,987 [MainThread] Connection established with ('127.0.0.1', 52727)
+2024-02-03 15:18:22,991 [Thread-34 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:22,995 [MainThread] Connection established with ('127.0.0.1', 52728)
+2024-02-03 15:18:22,995 [Thread-35 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:22,999 [MainThread] Connection established with ('127.0.0.1', 52729)
+2024-02-03 15:18:22,999 [Thread-36 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:23,007 [MainThread] Connection established with ('127.0.0.1', 52730)
+2024-02-03 15:18:23,007 [Thread-37 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:23,011 [MainThread] Connection established with ('127.0.0.1', 52731)
+2024-02-03 15:18:23,011 [Thread-38 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:23,015 [MainThread] Connection established with ('127.0.0.1', 52732)
+2024-02-03 15:18:23,019 [Thread-39 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:23,023 [MainThread] Connection established with ('127.0.0.1', 52733)
+2024-02-03 15:18:23,023 [Thread-40 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:23,023 [MainThread] Connection established with ('127.0.0.1', 52734)
+2024-02-03 15:18:23,023 [Thread-41 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:24,483 [MainThread] Connection established with ('127.0.0.1', 52737)
+2024-02-03 15:18:24,483 [Thread-42 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:24,491 [MainThread] Connection established with ('127.0.0.1', 52738)
+2024-02-03 15:18:24,491 [Thread-43 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:24,495 [MainThread] Connection established with ('127.0.0.1', 52739)
+2024-02-03 15:18:24,495 [Thread-44 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:24,499 [MainThread] Connection established with ('127.0.0.1', 52740)
+2024-02-03 15:18:24,499 [Thread-45 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:24,503 [MainThread] Connection established with ('127.0.0.1', 52741)
+2024-02-03 15:18:24,507 [Thread-46 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:24,511 [MainThread] Connection established with ('127.0.0.1', 52742)
+2024-02-03 15:18:24,511 [Thread-47 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:24,515 [MainThread] Connection established with ('127.0.0.1', 52743)
+2024-02-03 15:18:24,515 [Thread-48 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:24,519 [MainThread] Connection established with ('127.0.0.1', 52744)
+2024-02-03 15:18:24,523 [Thread-49 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:24,523 [MainThread] Connection established with ('127.0.0.1', 52745)
+2024-02-03 15:18:24,527 [Thread-50 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:24,531 [MainThread] Connection established with ('127.0.0.1', 52746)
+2024-02-03 15:18:24,531 [Thread-51 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:25,567 [MainThread] Connection established with ('127.0.0.1', 52749)
+2024-02-03 15:18:25,567 [Thread-52 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:25,571 [MainThread] Connection established with ('127.0.0.1', 52750)
+2024-02-03 15:18:25,571 [Thread-53 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:25,575 [MainThread] Connection established with ('127.0.0.1', 52751)
+2024-02-03 15:18:25,575 [Thread-54 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:25,583 [MainThread] Connection established with ('127.0.0.1', 52752)
+2024-02-03 15:18:25,583 [Thread-55 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:25,587 [MainThread] Connection established with ('127.0.0.1', 52753)
+2024-02-03 15:18:25,587 [Thread-56 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:25,591 [MainThread] Connection established with ('127.0.0.1', 52754)
+2024-02-03 15:18:25,591 [Thread-57 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:25,599 [MainThread] Connection established with ('127.0.0.1', 52755)
+2024-02-03 15:18:25,599 [Thread-58 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:25,603 [MainThread] Connection established with ('127.0.0.1', 52756)
+2024-02-03 15:18:25,603 [Thread-59 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:25,607 [MainThread] Connection established with ('127.0.0.1', 52757)
+2024-02-03 15:18:25,607 [Thread-60 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:25,611 [MainThread] Connection established with ('127.0.0.1', 52758)
+2024-02-03 15:18:25,615 [Thread-61 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:26,584 [MainThread] Connection established with ('127.0.0.1', 52761)
+2024-02-03 15:18:26,584 [Thread-62 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:26,588 [MainThread] Connection established with ('127.0.0.1', 52762)
+2024-02-03 15:18:26,588 [Thread-63 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:26,596 [MainThread] Connection established with ('127.0.0.1', 52763)
+2024-02-03 15:18:26,596 [Thread-64 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:26,600 [MainThread] Connection established with ('127.0.0.1', 52764)
+2024-02-03 15:18:26,600 [Thread-65 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:26,604 [MainThread] Connection established with ('127.0.0.1', 52765)
+2024-02-03 15:18:26,604 [Thread-66 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:26,612 [MainThread] Connection established with ('127.0.0.1', 52766)
+2024-02-03 15:18:26,612 [Thread-67 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:26,616 [MainThread] Connection established with ('127.0.0.1', 52767)
+2024-02-03 15:18:26,616 [Thread-68 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:26,620 [MainThread] Connection established with ('127.0.0.1', 52768)
+2024-02-03 15:18:26,620 [Thread-69 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:26,624 [MainThread] Connection established with ('127.0.0.1', 52769)
+2024-02-03 15:18:26,628 [Thread-70 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:26,632 [MainThread] Connection established with ('127.0.0.1', 52770)
+2024-02-03 15:18:26,632 [Thread-71 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:27,534 [MainThread] Connection established with ('127.0.0.1', 52773)
+2024-02-03 15:18:27,538 [Thread-72 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:27,542 [MainThread] Connection established with ('127.0.0.1', 52774)
+2024-02-03 15:18:27,542 [Thread-73 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:27,546 [MainThread] Connection established with ('127.0.0.1', 52775)
+2024-02-03 15:18:27,546 [Thread-74 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:27,550 [MainThread] Connection established with ('127.0.0.1', 52776)
+2024-02-03 15:18:27,550 [Thread-75 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:27,554 [MainThread] Connection established with ('127.0.0.1', 52777)
+2024-02-03 15:18:27,554 [Thread-76 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:27,562 [MainThread] Connection established with ('127.0.0.1', 52778)
+2024-02-03 15:18:27,562 [Thread-77 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:27,566 [MainThread] Connection established with ('127.0.0.1', 52779)
+2024-02-03 15:18:27,566 [Thread-78 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:27,570 [MainThread] Connection established with ('127.0.0.1', 52780)
+2024-02-03 15:18:27,570 [Thread-79 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:27,570 [MainThread] Connection established with ('127.0.0.1', 52781)
+2024-02-03 15:18:27,570 [Thread-80 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:27,578 [MainThread] Connection established with ('127.0.0.1', 52782)
+2024-02-03 15:18:27,578 [Thread-81 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:28,476 [MainThread] Connection established with ('127.0.0.1', 52785)
+2024-02-03 15:18:28,480 [Thread-82 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:28,484 [MainThread] Connection established with ('127.0.0.1', 52786)
+2024-02-03 15:18:28,484 [Thread-83 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:28,488 [MainThread] Connection established with ('127.0.0.1', 52787)
+2024-02-03 15:18:28,488 [Thread-84 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:28,492 [MainThread] Connection established with ('127.0.0.1', 52788)
+2024-02-03 15:18:28,492 [Thread-85 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:28,496 [MainThread] Connection established with ('127.0.0.1', 52789)
+2024-02-03 15:18:28,500 [Thread-86 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:28,504 [MainThread] Connection established with ('127.0.0.1', 52790)
+2024-02-03 15:18:28,504 [Thread-87 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:28,512 [MainThread] Connection established with ('127.0.0.1', 52791)
+2024-02-03 15:18:28,512 [Thread-88 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:28,516 [MainThread] Connection established with ('127.0.0.1', 52792)
+2024-02-03 15:18:28,520 [Thread-89 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:28,524 [MainThread] Connection established with ('127.0.0.1', 52793)
+2024-02-03 15:18:28,524 [Thread-90 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:28,528 [MainThread] Connection established with ('127.0.0.1', 52794)
+2024-02-03 15:18:28,528 [Thread-91 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:29,339 [MainThread] Connection established with ('127.0.0.1', 52797)
+2024-02-03 15:18:29,343 [Thread-92 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:29,347 [MainThread] Connection established with ('127.0.0.1', 52798)
+2024-02-03 15:18:29,347 [Thread-93 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:29,351 [MainThread] Connection established with ('127.0.0.1', 52799)
+2024-02-03 15:18:29,351 [Thread-94 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:29,355 [MainThread] Connection established with ('127.0.0.1', 52800)
+2024-02-03 15:18:29,355 [Thread-95 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:29,359 [MainThread] Connection established with ('127.0.0.1', 52801)
+2024-02-03 15:18:29,359 [Thread-96 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:29,363 [MainThread] Connection established with ('127.0.0.1', 52802)
+2024-02-03 15:18:29,367 [Thread-97 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:29,371 [MainThread] Connection established with ('127.0.0.1', 52803)
+2024-02-03 15:18:29,371 [Thread-98 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:29,375 [MainThread] Connection established with ('127.0.0.1', 52804)
+2024-02-03 15:18:29,379 [Thread-99 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:29,383 [MainThread] Connection established with ('127.0.0.1', 52805)
+2024-02-03 15:18:29,383 [Thread-100 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:29,387 [MainThread] Connection established with ('127.0.0.1', 52806)
+2024-02-03 15:18:29,387 [Thread-101 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:30,222 [MainThread] Connection established with ('127.0.0.1', 52809)
+2024-02-03 15:18:30,222 [Thread-102 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:30,226 [MainThread] Connection established with ('127.0.0.1', 52810)
+2024-02-03 15:18:30,226 [Thread-103 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:30,230 [MainThread] Connection established with ('127.0.0.1', 52811)
+2024-02-03 15:18:30,230 [Thread-104 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:30,234 [MainThread] Connection established with ('127.0.0.1', 52812)
+2024-02-03 15:18:30,238 [Thread-105 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:30,242 [MainThread] Connection established with ('127.0.0.1', 52813)
+2024-02-03 15:18:30,242 [Thread-106 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:30,246 [MainThread] Connection established with ('127.0.0.1', 52814)
+2024-02-03 15:18:30,246 [Thread-107 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:30,250 [MainThread] Connection established with ('127.0.0.1', 52815)
+2024-02-03 15:18:30,254 [Thread-108 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:30,258 [MainThread] Connection established with ('127.0.0.1', 52816)
+2024-02-03 15:18:30,258 [Thread-109 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:30,262 [MainThread] Connection established with ('127.0.0.1', 52817)
+2024-02-03 15:18:30,262 [Thread-110 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:30,270 [MainThread] Connection established with ('127.0.0.1', 52818)
+2024-02-03 15:18:30,270 [Thread-111 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:31,215 [MainThread] Connection established with ('127.0.0.1', 52821)
+2024-02-03 15:18:31,215 [Thread-112 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:31,219 [MainThread] Connection established with ('127.0.0.1', 52822)
+2024-02-03 15:18:31,219 [Thread-113 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:31,223 [MainThread] Connection established with ('127.0.0.1', 52823)
+2024-02-03 15:18:31,227 [Thread-114 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:31,231 [MainThread] Connection established with ('127.0.0.1', 52824)
+2024-02-03 15:18:31,231 [Thread-115 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:31,235 [MainThread] Connection established with ('127.0.0.1', 52825)
+2024-02-03 15:18:31,235 [Thread-116 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:31,239 [MainThread] Connection established with ('127.0.0.1', 52826)
+2024-02-03 15:18:31,239 [Thread-117 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:31,247 [MainThread] Connection established with ('127.0.0.1', 52827)
+2024-02-03 15:18:31,247 [Thread-118 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:31,251 [MainThread] Connection established with ('127.0.0.1', 52828)
+2024-02-03 15:18:31,255 [Thread-119 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:31,259 [MainThread] Connection established with ('127.0.0.1', 52829)
+2024-02-03 15:18:31,259 [Thread-120 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:31,263 [MainThread] Connection established with ('127.0.0.1', 52830)
+2024-02-03 15:18:31,267 [Thread-121 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:32,133 [MainThread] Connection established with ('127.0.0.1', 52833)
+2024-02-03 15:18:32,133 [Thread-122 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:32,137 [MainThread] Connection established with ('127.0.0.1', 52834)
+2024-02-03 15:18:32,137 [Thread-123 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:32,145 [MainThread] Connection established with ('127.0.0.1', 52835)
+2024-02-03 15:18:32,145 [Thread-124 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:32,149 [MainThread] Connection established with ('127.0.0.1', 52836)
+2024-02-03 15:18:32,149 [Thread-125 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:32,153 [MainThread] Connection established with ('127.0.0.1', 52837)
+2024-02-03 15:18:32,153 [Thread-126 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:32,161 [MainThread] Connection established with ('127.0.0.1', 52838)
+2024-02-03 15:18:32,161 [Thread-127 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:32,165 [MainThread] Connection established with ('127.0.0.1', 52839)
+2024-02-03 15:18:32,165 [Thread-128 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:32,169 [MainThread] Connection established with ('127.0.0.1', 52840)
+2024-02-03 15:18:32,169 [Thread-129 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:32,173 [MainThread] Connection established with ('127.0.0.1', 52841)
+2024-02-03 15:18:32,177 [Thread-130 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:18:32,181 [MainThread] Connection established with ('127.0.0.1', 52842)
+2024-02-03 15:18:32,181 [Thread-131 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:21:59,068 [MainThread] Connection established with ('127.0.0.1', 52918)
+2024-02-03 15:21:59,068 [Thread-132 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:21:59,076 [MainThread] Connection established with ('127.0.0.1', 52919)
+2024-02-03 15:21:59,076 [Thread-133 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:21:59,080 [MainThread] Connection established with ('127.0.0.1', 52920)
+2024-02-03 15:21:59,080 [Thread-134 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:21:59,084 [MainThread] Connection established with ('127.0.0.1', 52921)
+2024-02-03 15:21:59,088 [Thread-135 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:21:59,092 [MainThread] Connection established with ('127.0.0.1', 52922)
+2024-02-03 15:21:59,092 [Thread-136 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:21:59,100 [MainThread] Connection established with ('127.0.0.1', 52923)
+2024-02-03 15:21:59,100 [Thread-137 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:21:59,104 [MainThread] Connection established with ('127.0.0.1', 52924)
+2024-02-03 15:21:59,104 [Thread-138 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:21:59,108 [MainThread] Connection established with ('127.0.0.1', 52925)
+2024-02-03 15:21:59,108 [Thread-139 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:21:59,116 [MainThread] Connection established with ('127.0.0.1', 52926)
+2024-02-03 15:21:59,116 [Thread-140 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:21:59,120 [MainThread] Connection established with ('127.0.0.1', 52927)
+2024-02-03 15:21:59,120 [Thread-141 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:05,339 [MainThread] Connection established with ('127.0.0.1', 52930)
+2024-02-03 15:22:05,339 [Thread-142 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:05,343 [MainThread] Connection established with ('127.0.0.1', 52931)
+2024-02-03 15:22:05,343 [Thread-143 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:05,347 [MainThread] Connection established with ('127.0.0.1', 52932)
+2024-02-03 15:22:05,351 [Thread-144 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:05,355 [MainThread] Connection established with ('127.0.0.1', 52933)
+2024-02-03 15:22:05,355 [Thread-145 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:05,359 [MainThread] Connection established with ('127.0.0.1', 52934)
+2024-02-03 15:22:05,363 [Thread-146 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:05,367 [MainThread] Connection established with ('127.0.0.1', 52935)
+2024-02-03 15:22:05,367 [Thread-147 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:05,371 [MainThread] Connection established with ('127.0.0.1', 52936)
+2024-02-03 15:22:05,371 [Thread-148 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:05,375 [MainThread] Connection established with ('127.0.0.1', 52937)
+2024-02-03 15:22:05,379 [Thread-149 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:05,383 [MainThread] Connection established with ('127.0.0.1', 52938)
+2024-02-03 15:22:05,383 [Thread-150 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:05,387 [MainThread] Connection established with ('127.0.0.1', 52939)
+2024-02-03 15:22:05,387 [Thread-151 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:07,258 [MainThread] Connection established with ('127.0.0.1', 52944)
+2024-02-03 15:22:07,262 [Thread-152 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:07,266 [MainThread] Connection established with ('127.0.0.1', 52945)
+2024-02-03 15:22:07,266 [Thread-153 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:07,270 [MainThread] Connection established with ('127.0.0.1', 52946)
+2024-02-03 15:22:07,270 [Thread-154 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:07,274 [MainThread] Connection established with ('127.0.0.1', 52947)
+2024-02-03 15:22:07,278 [Thread-155 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:07,282 [MainThread] Connection established with ('127.0.0.1', 52948)
+2024-02-03 15:22:07,282 [Thread-156 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:07,286 [MainThread] Connection established with ('127.0.0.1', 52949)
+2024-02-03 15:22:07,290 [Thread-157 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:07,294 [MainThread] Connection established with ('127.0.0.1', 52950)
+2024-02-03 15:22:07,294 [Thread-158 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:07,298 [MainThread] Connection established with ('127.0.0.1', 52951)
+2024-02-03 15:22:07,298 [Thread-159 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:07,302 [MainThread] Connection established with ('127.0.0.1', 52952)
+2024-02-03 15:22:07,306 [Thread-160 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:07,310 [MainThread] Connection established with ('127.0.0.1', 52953)
+2024-02-03 15:22:07,310 [Thread-161 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:08,346 [MainThread] Connection established with ('127.0.0.1', 52956)
+2024-02-03 15:22:08,346 [Thread-162 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:08,350 [MainThread] Connection established with ('127.0.0.1', 52957)
+2024-02-03 15:22:08,352 [Thread-163 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:08,352 [MainThread] Connection established with ('127.0.0.1', 52958)
+2024-02-03 15:22:08,356 [Thread-164 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:08,356 [MainThread] Connection established with ('127.0.0.1', 52959)
+2024-02-03 15:22:08,356 [Thread-165 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:08,360 [MainThread] Connection established with ('127.0.0.1', 52960)
+2024-02-03 15:22:08,364 [Thread-166 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:08,364 [MainThread] Connection established with ('127.0.0.1', 52961)
+2024-02-03 15:22:08,364 [Thread-167 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:08,372 [MainThread] Connection established with ('127.0.0.1', 52962)
+2024-02-03 15:22:08,372 [Thread-168 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:08,376 [MainThread] Connection established with ('127.0.0.1', 52963)
+2024-02-03 15:22:08,376 [Thread-169 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:08,380 [MainThread] Connection established with ('127.0.0.1', 52964)
+2024-02-03 15:22:08,380 [Thread-170 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:08,384 [MainThread] Connection established with ('127.0.0.1', 52965)
+2024-02-03 15:22:08,384 [Thread-171 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:09,476 [MainThread] Connection established with ('127.0.0.1', 52968)
+2024-02-03 15:22:09,476 [Thread-172 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:09,480 [MainThread] Connection established with ('127.0.0.1', 52969)
+2024-02-03 15:22:09,480 [Thread-173 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:09,484 [MainThread] Connection established with ('127.0.0.1', 52970)
+2024-02-03 15:22:09,484 [Thread-174 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:09,488 [MainThread] Connection established with ('127.0.0.1', 52971)
+2024-02-03 15:22:09,488 [Thread-175 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:09,496 [MainThread] Connection established with ('127.0.0.1', 52972)
+2024-02-03 15:22:09,496 [Thread-176 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:09,500 [MainThread] Connection established with ('127.0.0.1', 52973)
+2024-02-03 15:22:09,500 [Thread-177 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:09,504 [MainThread] Connection established with ('127.0.0.1', 52974)
+2024-02-03 15:22:09,504 [Thread-178 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:09,508 [MainThread] Connection established with ('127.0.0.1', 52975)
+2024-02-03 15:22:09,508 [Thread-179 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:09,512 [MainThread] Connection established with ('127.0.0.1', 52976)
+2024-02-03 15:22:09,516 [Thread-180 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:09,520 [MainThread] Connection established with ('127.0.0.1', 52977)
+2024-02-03 15:22:09,520 [Thread-181 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:10,483 [MainThread] Connection established with ('127.0.0.1', 52980)
+2024-02-03 15:22:10,483 [Thread-182 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:10,487 [MainThread] Connection established with ('127.0.0.1', 52981)
+2024-02-03 15:22:10,487 [Thread-183 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:10,491 [MainThread] Connection established with ('127.0.0.1', 52982)
+2024-02-03 15:22:10,491 [Thread-184 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:10,499 [MainThread] Connection established with ('127.0.0.1', 52983)
+2024-02-03 15:22:10,499 [Thread-185 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:10,503 [MainThread] Connection established with ('127.0.0.1', 52984)
+2024-02-03 15:22:10,503 [Thread-186 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:10,507 [MainThread] Connection established with ('127.0.0.1', 52985)
+2024-02-03 15:22:10,507 [Thread-187 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:10,510 [MainThread] Connection established with ('127.0.0.1', 52986)
+2024-02-03 15:22:10,514 [Thread-188 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:10,518 [MainThread] Connection established with ('127.0.0.1', 52987)
+2024-02-03 15:22:10,518 [Thread-189 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:10,523 [MainThread] Connection established with ('127.0.0.1', 52988)
+2024-02-03 15:22:10,523 [Thread-190 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:10,527 [MainThread] Connection established with ('127.0.0.1', 52989)
+2024-02-03 15:22:10,530 [Thread-191 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:11,445 [MainThread] Connection established with ('127.0.0.1', 52992)
+2024-02-03 15:22:11,449 [Thread-192 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:11,453 [MainThread] Connection established with ('127.0.0.1', 52993)
+2024-02-03 15:22:11,453 [Thread-193 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:11,457 [MainThread] Connection established with ('127.0.0.1', 52994)
+2024-02-03 15:22:11,457 [Thread-194 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:11,461 [MainThread] Connection established with ('127.0.0.1', 52995)
+2024-02-03 15:22:11,461 [Thread-195 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:11,469 [MainThread] Connection established with ('127.0.0.1', 52996)
+2024-02-03 15:22:11,469 [Thread-196 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:11,473 [MainThread] Connection established with ('127.0.0.1', 52997)
+2024-02-03 15:22:11,477 [Thread-197 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:11,481 [MainThread] Connection established with ('127.0.0.1', 52998)
+2024-02-03 15:22:11,485 [Thread-198 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:11,489 [MainThread] Connection established with ('127.0.0.1', 52999)
+2024-02-03 15:22:11,489 [Thread-199 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:11,493 [MainThread] Connection established with ('127.0.0.1', 53000)
+2024-02-03 15:22:11,493 [Thread-200 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:11,497 [MainThread] Connection established with ('127.0.0.1', 53001)
+2024-02-03 15:22:11,501 [Thread-201 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:12,387 [MainThread] Connection established with ('127.0.0.1', 53004)
+2024-02-03 15:22:12,387 [Thread-202 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:12,391 [MainThread] Connection established with ('127.0.0.1', 53005)
+2024-02-03 15:22:12,395 [Thread-203 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:12,399 [MainThread] Connection established with ('127.0.0.1', 53006)
+2024-02-03 15:22:12,399 [Thread-204 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:12,403 [MainThread] Connection established with ('127.0.0.1', 53007)
+2024-02-03 15:22:12,403 [Thread-205 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:12,411 [MainThread] Connection established with ('127.0.0.1', 53008)
+2024-02-03 15:22:12,411 [Thread-206 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:12,415 [MainThread] Connection established with ('127.0.0.1', 53009)
+2024-02-03 15:22:12,415 [Thread-207 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:12,419 [MainThread] Connection established with ('127.0.0.1', 53010)
+2024-02-03 15:22:12,423 [Thread-208 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:12,427 [MainThread] Connection established with ('127.0.0.1', 53011)
+2024-02-03 15:22:12,427 [Thread-209 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:12,431 [MainThread] Connection established with ('127.0.0.1', 53012)
+2024-02-03 15:22:12,435 [Thread-210 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:12,439 [MainThread] Connection established with ('127.0.0.1', 53013)
+2024-02-03 15:22:12,439 [Thread-211 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:13,216 [MainThread] Connection established with ('127.0.0.1', 53016)
+2024-02-03 15:22:13,216 [Thread-212 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:13,220 [MainThread] Connection established with ('127.0.0.1', 53017)
+2024-02-03 15:22:13,220 [Thread-213 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:13,224 [MainThread] Connection established with ('127.0.0.1', 53018)
+2024-02-03 15:22:13,228 [Thread-214 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:13,232 [MainThread] Connection established with ('127.0.0.1', 53019)
+2024-02-03 15:22:13,232 [Thread-215 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:13,236 [MainThread] Connection established with ('127.0.0.1', 53020)
+2024-02-03 15:22:13,236 [Thread-216 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:13,240 [MainThread] Connection established with ('127.0.0.1', 53021)
+2024-02-03 15:22:13,240 [Thread-217 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:13,244 [MainThread] Connection established with ('127.0.0.1', 53022)
+2024-02-03 15:22:13,244 [Thread-218 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:13,252 [MainThread] Connection established with ('127.0.0.1', 53023)
+2024-02-03 15:22:13,252 [Thread-219 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:13,256 [MainThread] Connection established with ('127.0.0.1', 53024)
+2024-02-03 15:22:13,256 [Thread-220 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:13,260 [MainThread] Connection established with ('127.0.0.1', 53025)
+2024-02-03 15:22:13,260 [Thread-221 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:14,130 [MainThread] Connection established with ('127.0.0.1', 53028)
+2024-02-03 15:22:14,130 [Thread-222 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:14,134 [MainThread] Connection established with ('127.0.0.1', 53029)
+2024-02-03 15:22:14,134 [Thread-223 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:14,138 [MainThread] Connection established with ('127.0.0.1', 53030)
+2024-02-03 15:22:14,142 [Thread-224 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:14,142 [MainThread] Connection established with ('127.0.0.1', 53031)
+2024-02-03 15:22:14,146 [Thread-225 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:14,150 [MainThread] Connection established with ('127.0.0.1', 53032)
+2024-02-03 15:22:14,150 [Thread-226 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:14,158 [MainThread] Connection established with ('127.0.0.1', 53033)
+2024-02-03 15:22:14,158 [Thread-227 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:14,162 [MainThread] Connection established with ('127.0.0.1', 53034)
+2024-02-03 15:22:14,166 [Thread-228 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:14,166 [MainThread] Connection established with ('127.0.0.1', 53035)
+2024-02-03 15:22:14,170 [Thread-229 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:14,174 [MainThread] Connection established with ('127.0.0.1', 53036)
+2024-02-03 15:22:14,174 [Thread-230 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:14,182 [MainThread] Connection established with ('127.0.0.1', 53037)
+2024-02-03 15:22:14,182 [Thread-231 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:16,489 [MainThread] Connection established with ('127.0.0.1', 53040)
+2024-02-03 15:22:16,489 [Thread-232 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:16,497 [MainThread] Connection established with ('127.0.0.1', 53041)
+2024-02-03 15:22:16,497 [Thread-233 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:16,501 [MainThread] Connection established with ('127.0.0.1', 53042)
+2024-02-03 15:22:16,501 [Thread-234 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:16,505 [MainThread] Connection established with ('127.0.0.1', 53043)
+2024-02-03 15:22:16,509 [Thread-235 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:16,513 [MainThread] Connection established with ('127.0.0.1', 53044)
+2024-02-03 15:22:16,513 [Thread-236 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:16,517 [MainThread] Connection established with ('127.0.0.1', 53045)
+2024-02-03 15:22:16,517 [Thread-237 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:16,521 [MainThread] Connection established with ('127.0.0.1', 53046)
+2024-02-03 15:22:16,525 [Thread-238 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:16,529 [MainThread] Connection established with ('127.0.0.1', 53047)
+2024-02-03 15:22:16,529 [Thread-239 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:16,533 [MainThread] Connection established with ('127.0.0.1', 53048)
+2024-02-03 15:22:16,537 [Thread-240 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:16,541 [MainThread] Connection established with ('127.0.0.1', 53049)
+2024-02-03 15:22:16,541 [Thread-241 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:30,505 [MainThread] Connection established with ('127.0.0.1', 53052)
+2024-02-03 15:22:30,505 [Thread-242 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:30,509 [MainThread] Connection established with ('127.0.0.1', 53053)
+2024-02-03 15:22:30,509 [Thread-243 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:30,513 [MainThread] Connection established with ('127.0.0.1', 53054)
+2024-02-03 15:22:30,513 [Thread-244 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:30,522 [MainThread] Connection established with ('127.0.0.1', 53055)
+2024-02-03 15:22:30,524 [Thread-245 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:30,526 [MainThread] Connection established with ('127.0.0.1', 53056)
+2024-02-03 15:22:30,526 [Thread-246 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:30,534 [MainThread] Connection established with ('127.0.0.1', 53057)
+2024-02-03 15:22:30,534 [Thread-247 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:30,538 [MainThread] Connection established with ('127.0.0.1', 53058)
+2024-02-03 15:22:30,538 [Thread-248 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:30,542 [MainThread] Connection established with ('127.0.0.1', 53059)
+2024-02-03 15:22:30,542 [Thread-249 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:30,550 [MainThread] Connection established with ('127.0.0.1', 53060)
+2024-02-03 15:22:30,550 [Thread-250 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:22:30,554 [MainThread] Connection established with ('127.0.0.1', 53061)
+2024-02-03 15:22:30,554 [Thread-251 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:23:32,141 [MainThread] Connection established with ('127.0.0.1', 53069)
+2024-02-03 15:23:32,141 [Thread-252 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:23:32,141 [Thread-252 (handle_client)] Handling HTTP request: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:23:32,157 [Thread-252 (handle_client)] Sending Response back to client. Response size: 198 bytes
+2024-02-03 15:23:34,672 [MainThread] Connection established with ('127.0.0.1', 53073)
+2024-02-03 15:23:34,672 [Thread-253 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:23:36,305 [MainThread] Connection established with ('127.0.0.1', 53076)
+2024-02-03 15:23:36,305 [Thread-254 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:23:37,720 [MainThread] Connection established with ('127.0.0.1', 53079)
+2024-02-03 15:23:37,720 [Thread-255 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:23:38,788 [MainThread] Connection established with ('127.0.0.1', 53082)
+2024-02-03 15:23:38,792 [Thread-256 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:23:39,806 [MainThread] Connection established with ('127.0.0.1', 53085)
+2024-02-03 15:23:39,806 [Thread-257 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:23:40,762 [MainThread] Connection established with ('127.0.0.1', 53088)
+2024-02-03 15:23:40,762 [Thread-258 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:23:41,666 [MainThread] Connection established with ('127.0.0.1', 53091)
+2024-02-03 15:23:41,666 [Thread-259 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:23:42,560 [MainThread] Connection established with ('127.0.0.1', 53094)
+2024-02-03 15:23:42,560 [Thread-260 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:23:43,426 [MainThread] Connection established with ('127.0.0.1', 53097)
+2024-02-03 15:23:43,426 [Thread-261 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:23:44,287 [MainThread] Connection established with ('127.0.0.1', 53100)
+2024-02-03 15:23:44,287 [Thread-262 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:23:45,157 [MainThread] Connection established with ('127.0.0.1', 53105)
+2024-02-03 15:23:45,157 [Thread-263 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:23:46,059 [MainThread] Connection established with ('127.0.0.1', 53108)
+2024-02-03 15:23:46,059 [Thread-264 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:23:47,065 [MainThread] Connection established with ('127.0.0.1', 53111)
+2024-02-03 15:23:47,065 [Thread-265 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:23:47,933 [MainThread] Connection established with ('127.0.0.1', 53114)
+2024-02-03 15:23:47,933 [Thread-266 (handle_client)] Request Received: GET http://127.0.0.1:5050/get HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:24:03,240 [MainThread] Connection established with ('127.0.0.1', 53120)
+2024-02-03 15:24:03,240 [Thread-267 (handle_client)] Request Received: GET http://127.0.0.1:5050/get_rand HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:24:03,240 [Thread-267 (handle_client)] Handling HTTP request: GET http://127.0.0.1:5050/get_rand HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:24:03,545 [Thread-267 (handle_client)] Sending Response back to client. Response size: 524509 bytes
+2024-02-03 15:24:06,193 [MainThread] Connection established with ('127.0.0.1', 53124)
+2024-02-03 15:24:06,197 [Thread-268 (handle_client)] Request Received: GET http://127.0.0.1:5050/get_rand HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:24:07,634 [MainThread] Connection established with ('127.0.0.1', 53127)
+2024-02-03 15:24:07,634 [Thread-269 (handle_client)] Request Received: GET http://127.0.0.1:5050/get_rand HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:24:09,170 [MainThread] Connection established with ('127.0.0.1', 53130)
+2024-02-03 15:24:09,174 [Thread-270 (handle_client)] Request Received: GET http://127.0.0.1:5050/get_rand HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:24:10,401 [MainThread] Connection established with ('127.0.0.1', 53133)
+2024-02-03 15:24:10,401 [Thread-271 (handle_client)] Request Received: GET http://127.0.0.1:5050/get_rand HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:24:11,588 [MainThread] Connection established with ('127.0.0.1', 53136)
+2024-02-03 15:24:11,592 [Thread-272 (handle_client)] Request Received: GET http://127.0.0.1:5050/get_rand HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:24:12,773 [MainThread] Connection established with ('127.0.0.1', 53139)
+2024-02-03 15:24:12,773 [Thread-273 (handle_client)] Request Received: GET http://127.0.0.1:5050/get_rand HTTP/1.1
+Host: 127.0.0.1:5050
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:25:33,792 [MainThread] Connection established with ('127.0.0.1', 53292)
+2024-02-03 15:25:33,792 [Thread-274 (handle_client)] Request Received: GET http://httpbin.org/get HTTP/1.1
+Host: httpbin.org
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+
+
+2024-02-03 15:25:33,792 [Thread-274 (handle_client)] Handling HTTP request: GET http://httpbin.org/get HTTP/1.1
+Host: httpbin.org
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
 
 

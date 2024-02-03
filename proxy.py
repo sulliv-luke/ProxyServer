@@ -3,6 +3,7 @@ import socket
 import threading
 import re
 import logging
+import time
 
 # Setting up the requestsLogger
 requestsLogger = logging.getLogger('requestsLogger')
@@ -37,6 +38,7 @@ class ProxyServer:
         self.block_list = block_list
 
         self.cache = {}  # Dictionary for storing cached responses
+        self.default_ttl = 300  # Default TTL in seconds (e.g., 5 minutes)
         
         self.initialize_server()
         self.command_thread = threading.Thread(target=self.read_commands)
@@ -67,10 +69,9 @@ class ProxyServer:
             return
         
         cache_key = self.generate_cache_key(request)
-        if cache_key in self.cache:
-            requestsLogger.debug(f"CACHE HIT")
-            client_socket.sendall(self.cache[cache_key])
-            client_socket.close()
+        if self.is_cache_valid(cache_key):
+            data = self.get_from_cache(cache_key)
+            client_socket.sendall(data)
             return
         
         # Check for HTTPS CONNECT method
@@ -169,7 +170,7 @@ class ProxyServer:
                 response += part
                 if response:
                     cache_key = self.generate_cache_key(request)
-                    self.cache[cache_key] = response
+                    self.save_to_cache(cache_key, response)
             return response
         except Exception as e:
             requestsLogger.error(f"Error in forward_request: {e}", exc_info=True)
@@ -203,16 +204,36 @@ class ProxyServer:
     
     def normalize_url(self, url):
         # Remove http:// or https:// from the URL
-        url = re.sub(r'^https?://', '', url)
+        temp_url = re.sub(r'^https?://', '', url)
         # Remove 'www.' from the URL if it exists
-        url = re.sub(r'^www\.', '', url)
+        temp_url = re.sub(r'^www\.', '', url)
         # Remove port number if present
-        url = re.sub(r':\d+', '', url)
-        return url
+        temp_url = re.sub(r':\d+', '', url)
+        return temp_url
     
     def generate_cache_key(self, request):
         # Generate a unique cache key based on the request
         return hashlib.sha256(request.encode()).hexdigest()
+    
+    def is_cache_valid(self, cache_key):
+        if cache_key in self.cache:
+            timestamp, _ = self.cache[cache_key]
+            if (time.time() - timestamp) < self.default_ttl:
+                return True
+        self.evict_expired_cache()
+        return False
+    
+    def get_from_cache(self, cache_key):
+        return self.cache[cache_key][1] if self.is_cache_valid(cache_key) else None
+    
+    def save_to_cache(self, cache_key, data):
+        self.cache[cache_key] = (time.time(), data)
+
+    def evict_expired_cache(self):
+        current_time = time.time()
+        expired_keys = [key for key, (timestamp, _) in self.cache.items() if (current_time - timestamp) >= self.default_ttl]
+        for key in expired_keys:
+            del self.cache[key]
     
     def read_commands(self):
         while True:
