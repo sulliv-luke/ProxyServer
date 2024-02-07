@@ -1,4 +1,5 @@
 import hashlib
+import select
 import socket
 import threading
 import re
@@ -82,7 +83,6 @@ class ProxyServer:
             requestsLogger.debug(f"Handling HTTP request: {request}")
             # Forward the request and retrieve response
             response = self.forward_request(url, request)
-
             # Check if a valid response was received
             if response:
                 requestsLogger.debug(f"Sending Response back to client. Response size: {len(response)} bytes")
@@ -143,7 +143,6 @@ class ProxyServer:
                 relayLogger.debug("Closing source socket")
                 source.close()
 
-
     def extract_host_port(self, url):
         # Extracting host and port from a URL
         match = re.search(r'^(?:http://|https://)?([^:/]+)(?::(\d+))?', url)
@@ -154,29 +153,62 @@ class ProxyServer:
         else:
             raise ValueError("Invalid URL")
 
-
     def forward_request(self, url, request):
         target_host, target_port = self.extract_host_port(url)
         server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        server_socket.settimeout(2.0)  # Set a timeout for connection operations
+
         try:
             server_socket.connect((target_host, target_port))
             server_socket.sendall(request.encode())
 
-            response = b''
+            response = bytearray()
+            server_socket.setblocking(0)  # Set the socket to non-blocking mode
+
+            content_length = None
+            headers_received = False
+            body_read = 0
+            total_expected_length = None
+
             while True:
-                part = server_socket.recv(4096)
-                if not part:
-                    break
-                response += part
-                if response:
-                    cache_key = self.generate_cache_key(request)
-                    self.save_to_cache(cache_key, response)
-            return response
+                ready = select.select([server_socket], [], [], 2.0)
+                if ready[0]:
+                    part = server_socket.recv(4096)
+                    if not part:
+                        break  # Break the loop if no more data is received
+
+                    if not headers_received:
+                        # Accumulate header data until headers are fully received
+                        response.extend(part)
+                        if b'\r\n\r\n' in response:
+                            headers, body_initial = response.split(b'\r\n\r\n', 1)
+                            headers_received = True
+                            for line in headers.split(b'\r\n'):
+                                if line.lower().startswith(b'content-length:'):
+                                    content_length = int(line.split(b': ')[1])
+                                    total_expected_length = content_length + len(headers) + 4  # Include header length and separator
+                            response = bytearray(headers + b'\r\n\r\n' + body_initial)  # Reconstruct response with correct split
+                            body_read += len(body_initial)
+                    else:
+                        # Directly append to response if headers are already processed
+                        response.extend(part)
+                        body_read += len(part)
+
+                    # Check if we have read the entire content
+                    if content_length is not None and len(response) >= total_expected_length:
+                        break
+
+            if response:
+                cache_key = self.generate_cache_key(request)
+                self.save_to_cache(cache_key, response)
+            return bytes(response)
         except Exception as e:
             requestsLogger.error(f"Error in forward_request: {e}", exc_info=True)
             return None
         finally:
-            server_socket.close()  # Ensures that this socket is always closed
+            server_socket.close()
+
+
 
 
     def get_url_from_request(self, request):
@@ -204,12 +236,12 @@ class ProxyServer:
     
     def normalize_url(self, url):
         # Remove http:// or https:// from the URL
-        temp_url = re.sub(r'^https?://', '', url)
+        url = re.sub(r'^https?://', '', url)
         # Remove 'www.' from the URL if it exists
-        temp_url = re.sub(r'^www\.', '', url)
+        url = re.sub(r'^www\.', '', url)
         # Remove port number if present
-        temp_url = re.sub(r':\d+', '', url)
-        return temp_url
+        url = re.sub(r':\d+', '', url)
+        return url
     
     def generate_cache_key(self, request):
         # Generate a unique cache key based on the request
@@ -257,8 +289,10 @@ class ProxyServer:
             elif command == "cache":
                 for entry in self.cache:
                     print(f"{self.cache[entry]}\n")
+            elif command == "clear cache":
+                self.cache.clear()
             elif command == "--help":
-                print("Commands\n- block <url>: blocks url specified by <url>\n- unblock <url> unblocks specified url\n- cache: show all cached HTTP requests")
+                print("Commands\n- block <url>: blocks url specified by <url>\n- unblock <url> unblocks specified url\n- cache: show all cached HTTP requests\n - clear cache: clears all cache entries")
             else:
                 print("Unknown command, use --help for a list of commands\n")
 

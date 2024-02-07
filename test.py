@@ -22,11 +22,11 @@ def measure_request(url, proxies=None, repeats=1):
 
 # Example usage
 #url = "http://127.0.0.1:5050/get_rand"  # Adjust with your actual testing URL
-url = "http://httpbin.org/get"
+url = "http://www.example.com" 
 
 
 # Measure without proxy
-duration_without_proxy, size_without_proxy, throughput_without_proxy = measure_request(url, repeats=1)
+duration_without_proxy, size_without_proxy, throughput_without_proxy = measure_request(url, repeats=10)
 print(f"Direct access - Duration: {duration_without_proxy:.4f} seconds, Size: {size_without_proxy:.2f} bytes, Throughput: {throughput_without_proxy:.4f} KB/s")
 
 # Measure with proxy
