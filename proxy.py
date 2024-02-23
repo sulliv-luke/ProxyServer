@@ -40,6 +40,8 @@ class ProxyServer:
 
         self.cache = {}  # Dictionary for storing cached responses
         self.default_ttl = 300  # Default TTL in seconds (e.g., 5 minutes)
+
+        self.display_logs_active = False
         
         self.initialize_server()
         self.command_thread = threading.Thread(target=self.read_commands)
@@ -112,7 +114,7 @@ class ProxyServer:
         client_to_server_thread.start()
         server_to_client_thread.start()
 
-        # Don't join threads here, let them run in background
+        # Notice we don't join threads here, let them run in background
 
         """Joining a thread is a blocking operation, meaning it will halt the execution of the main thread until the joined thread completes. 
         In the context of a proxy server, you want the main thread to continue accepting new connections rather than waiting for 
@@ -266,7 +268,25 @@ class ProxyServer:
         expired_keys = [key for key, (timestamp, _) in self.cache.items() if (current_time - timestamp) >= self.default_ttl]
         for key in expired_keys:
             del self.cache[key]
-    
+
+    def display_logs(self, filename='./requests.log', interval=1.0):
+        # Function to display to contents of the requests log files as they are updated
+        self.display_logs_active = True
+        with open(filename, 'r') as file:
+            # Move the cursor to the end of the file
+            file.seek(0, 2)
+        
+            while self.display_logs_active:
+                # Read the next line
+                line = file.readline()
+            
+                # If the line is non-empty, print it to the console
+                if line:
+                    print(line, end='')
+                else:
+                    # Wait for a short period before checking for new content
+                    time.sleep(interval)
+ 
     def read_commands(self):
         while True:
             command = input("> ")
@@ -291,6 +311,17 @@ class ProxyServer:
                     print(f"{self.cache[entry]}\n")
             elif command == "clear cache":
                 self.cache.clear()
+            elif command == "requests --start":
+                if not self.display_logs_active:  # Only start if not already active
+                    print("Displaying requests...\n")
+                    thread = threading.Thread(target=self.display_logs)
+                    thread.daemon = True  # Daemonize thread
+                    thread.start()
+                else:
+                    print("Log display already running\n")
+            elif command == "requests --stop":
+                self.display_logs_active = False
+                print("Log display deactivated\n")
             elif command == "--help":
                 print("Commands\n- block <url>: blocks url specified by <url>\n- unblock <url> unblocks specified url\n- cache: show all cached HTTP requests\n - clear cache: clears all cache entries")
             else:
