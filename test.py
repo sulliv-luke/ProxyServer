@@ -30,7 +30,7 @@ duration_without_proxy, size_without_proxy, throughput_without_proxy = measure_r
 print(f"Direct access - Duration: {duration_without_proxy:.4f} seconds, Size: {size_without_proxy:.2f} bytes, Throughput: {throughput_without_proxy:.4f} KB/s")
 
 # Measure with proxy
-duration_with_proxy, size_with_proxy, throughput_with_proxy = measure_request(url, proxies={"http": "http://127.0.0.1:4003", "https": "http://127.0.0.1:4003"}, repeats=1)
+duration_with_proxy, size_with_proxy, throughput_with_proxy = measure_request(url, proxies={"http": "http://127.0.0.1:8080", "https": "http://127.0.0.1:8080"}, repeats=1)
 print(f"Proxy access - Duration: {duration_with_proxy:.4f} seconds, Size: {size_with_proxy:.2f} bytes, Throughput: {throughput_with_proxy:.4f} KB/s")
 
 if duration_with_proxy < duration_without_proxy:

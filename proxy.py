@@ -65,8 +65,9 @@ class ProxyServer:
         # Check for URL Blocking
         url = self.get_url_from_request(request)
         normalized_url = self.normalize_url(url)
+        normalized_url_slash = normalized_url + '/'
         normalized_block_list = [self.normalize_url(blocked_url) for blocked_url in self.block_list]
-        if normalized_url in normalized_block_list:
+        if normalized_url in normalized_block_list or normalized_url_slash in block_list:
             requestsLogger.debug(f"Blocked URL: {url}")
             client_socket.close()
             return
@@ -337,5 +338,5 @@ class ProxyServer:
 
 
 block_list = ['leetcode.com', 'www.yahoo.com']
-proxy = ProxyServer('127.0.0.1', 4003, block_list)
+proxy = ProxyServer('127.0.0.1', 8080, block_list)
 proxy.start()
